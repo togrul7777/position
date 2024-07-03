@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 1 */
+
+.qutu {
+    width: 200px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.qutu div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 2px;
+
+
+
+}
+
+.bir {
+    position: absolute;
+    top: 35px;
+    background-color: blue;
+    z-index: 1;
+}
+
+/* 1 */
+
+
+/* 2 */
+.form {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.mail input:focus {
+    background-color: rgb(199, 226, 46);
+}
+
+input {
+    margin: 1%;
+}
+
+.comm textarea {
+    width: 500px;
+    height: 150px;
+
+}
+
+/* 2 */
+
+/* 3 */
+.body {
+    text-align: center;
+
+}
+
+
+.headerr {
+    width: 100%;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: blue;
+
+}
+
+.arside {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.aside {
+    width: 35%;
+    height: 400px;
+    background-color: rgb(11, 138, 17);
+    display: inline-block;
+
+
+
+
+
+}
+
+.articl {
+    width: 60%;
+    height: 400px;
+    background-color: orange;
+    display: inline-block;
+
+
+}
+
+.articl .imgg {
+    width: 25%;
+    height: 170px;
+    border: 1px solid black;
+    background-color: rgb(131, 48, 48);
+    display: inline-block;
+    margin-top: 130px;
+
+}
+
+
+
+.footerr {
+    width: 100%;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: blue;
+
+}
+
+/* 3 */
+
+
+
+/* 4 */
+
+.header {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.allsection {
+    border: 1px solid black;
+    background-color: #ffffff;
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    padding-top: 70px;
+    padding-left: 9%;
+}
+
+.allsection section {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+
+}
+
+
+
+.footer {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+
+
+}
+
+/* 4 */
+
+
+
+/* 5 */
+.qutular {
+    width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+
+.qutular div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 50px;
+    display: inline-block;
+
+}
+
+.qutular div:first-child {
+
+    background-color: green;
+}
+
+
+.qutular div:nth-child(2) {
+    background-color: rgb(128, 0, 70);
+}
+
+
+.qutular div:nth-child(3) {
+    background-color: rgb(13, 0, 128);
+}
+
+
+.qutular div:nth-child(4) {
+    background-color: green;
+}
+
+
+.qutular div:nth-child(5) {
+    background-color: rgb(128, 0, 70);
+}
+
+
+.qutular div:nth-child(6) {
+    background-color: orange;
+
+}
+
+.qutular div:nth-child(7) {
+    background-color: green
+}
+
+
+.qutular div:nth-child(8) {
+    background-color: plum;
+
+}
+
+.qutular div:last-child {
+    background-color: green;
+
+}
+
+/* 5 */
+
+
+/* 6 */
+.bqutu {
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.bqutu div {
+
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+
+}
+
+.bir1 {
+    left: -50px;
+    position: relative;
+    background-color: blue;
+
+}
+
+/* 6 */
+
+
+/* 7 */
+.target {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 5px solid gray;
+    position: relative;
+
+}
+
+.target div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(122, 122, 122);
+    background-color: blue;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+
+/* 7 */
+
+
+/* 8 */
+.divv {
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    position: relative;
+
+}
+
+.divv div {
+    position: absolute;
+    display: inline-block;
+    background-color: gray;
+}
+
+.divv div:first-child {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.divv div:nth-child(2) {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    right: 250px;
+    z-index: 2;
+}
+
+.divv div:nth-child(3) {
+    border: 1px solid black;
+    width: 350px;
+    height: 170px;
+    bottom: 130px;
+    left: 30px;
+    z-index: 3;
+
+
+}
+
+.divv div:nth-child(4) {
+    border: 1px solid black;
+
+    width: 90px;
+    height: 390px;
+    top: 20px;
+    right: 60px;
+    z-index: 4;
+}
+
+/* 8 */
+
+
+
+/* 9 */
+
+.data {
+    width: 50%;
+    margin: 25px auto;
+    border: 3px solid black;
+    padding: 25px;
+    font-size: 20px;
+
+}
+
+
+
+/* paddinglere "0" verende disklerin gorunusu xosuma gelmedi ona gore vermedim)) */
+.data li:nth-child(odd) {
+    color: white;
+    padding: 10px;
+    background-color: green;
+}
+
+.data li:nth-child(even) {
+    color: yellow;
+    padding: 10px;
+    background-color: blue;
+}
+
+.data li {
+
+    list-style: inside;
+}
+/* 9 */
+
+
+
+/* 10 */
+

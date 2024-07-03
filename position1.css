@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 100%;
+    height: 250px;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.container .leftbox {
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.container .leftbox .left {
+  width: 45%;
+    height: 50px;
+    position: fixed;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: blue;
+    top: 20px;
+   
+
+}
+
+.container .rightbox {
+
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+
+}
+
+.container .rightbox .right {
+    position: sticky;
+    height: 50px;
+    top: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: blue;
+
+}
